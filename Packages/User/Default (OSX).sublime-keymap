@@ -1,0 +1,212 @@
+[
+  // to see output:
+  // sublime.log_commands(True)
+
+  // open this keybindings file
+  {
+    "keys": ["super+ctrl+,"],
+    "command": "open_file",
+    "args": {"file": "${packages}/User/Default ($platform).sublime-keymap"}
+  },
+
+  // go to line
+  {
+    "keys": ["super+l"],
+    "command": "show_overlay",
+    "args": {"overlay": "goto", "text": ":"}
+  },
+
+  // copy file name
+  {
+    "keys": ["super+shift+c"],
+    "command": "copy_path_to_clipboard"
+  },
+
+  // goto definition overrides
+  {
+    "keys": ["super+b"],
+    "command": "goto_definition"
+  },
+
+  // go to rspec twin
+  {
+    "keys": ["super+shift+t"],
+    "command": "unbound"
+  },
+
+  {
+    "keys": ["super+shift+t"],
+    "command": "open_rspec_file"
+  },
+
+  // select coffeescript twin
+  {
+    "keys": ["super+shift+t"],
+    "command": "open_coffee_twin",
+    "context": [ {"key": "selector", "operator": "equal", "operand": "source.coffee"} ]
+  },
+
+  // select javascriptscript twin
+  {
+    "keys": ["super+shift+t"],
+    "command": "open_javascript_twin",
+    "context": [ {"key": "selector", "operator": "equal", "operand": "source.js"} ]
+  },
+
+  // delete line
+  {
+    "keys": ["super+y"],
+    "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"}
+  },
+
+  // Duplicate selection
+  { "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
+
+  // show in project drawer
+  { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar"},
+
+  // compile and display coffeescript
+  {
+    "keys": ["super+b"],
+    "command": "compile_and_display_js",
+    "context": [ {"key": "selector", "operator": "equal", "operand": "source.coffee"} ]
+  },
+
+  // close all other tabs
+  {
+    "keys": ["super+shift+w"],
+    "command": "close_other_tabs"
+  },
+
+  // focus on side bar
+  {
+    "keys": ["ctrl+shift+tab"],
+    "command": "focus_side_bar"
+  },
+
+  // focus back in buffer
+  {
+    "keys": ["ctrl+tab"],
+    "command": "focus_group",
+    "args": {"group": 0}
+  },
+
+  // run tests
+  {
+    "keys": ["super+shift+f8"],
+    "command": "run_single_ruby_test"
+  },
+  {
+    "keys": ["super+f8"],
+    "command": "run_last_ruby_test"
+  },
+
+  {
+    "keys": ["super+ctrl+alt+t"],
+    "command": "reopen_last_file"
+  },
+
+  // find and replace by default
+  {
+    "keys": ["super+f"],
+    "command": "show_panel",
+    "args": {"panel": "replace"}
+  },
+
+  // use textmate replace next
+  {
+    "keys": ["super+alt+f"],
+    "command": "replace_next"
+  },
+
+  // use textmate replace all
+  {
+    "keys": ["super+alt+ctrl+f"],
+    "command": "replace_all"
+  },
+
+  // reindent
+  {
+    "keys": ["super+alt+"],
+    "command": "reindent",
+    "args": {"single_line": false}
+  },
+
+  // check ruby syntax
+  {
+    "keys": ["alt+shift+v"],
+    "command": "check_ruby_syntax"
+  },
+
+  // reformat code
+  {
+    "keys": ["super+alt+l"],
+    "command": "alignment"
+  },
+
+  // Rebind paste from history
+
+  {
+    "keys": ["super+shift+v"],
+    "command": "unbound"
+  },
+  {
+    "keys": ["super+shift+v"],
+    "command": "paste_from_history"
+  },
+
+  {
+    "keys": ["super+option+v"],
+    "command": "unbound"
+  },
+  {
+    "keys": ["super+option+v"],
+    "command": "paste_and_indent"
+  },
+
+  // Swap line rebindings
+  { "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
+  { "keys": ["ctrl+shift+down"], "command": "swap_line_down" },
+
+  // Toggle sidebar
+  { "keys": ["super+1"], "command": "toggle_side_bar" },
+
+  // Code folding
+  {
+    "keys": ["super+minus"],
+    "command": "bh_key",
+    "args":
+    {
+        "plugin": {
+            "type": ["__all__"],
+            "command" : "bh_modules.foldbracket"
+        }
+    }
+  },
+  {
+    "keys": ["super+plus"],
+    "command": "bh_key",
+    "args":
+    {
+        "plugin": {
+            "type": ["__all__"],
+            "command" : "bh_modules.foldbracket"
+        }
+    }
+  },
+  {
+    "keys": ["super+equals"],
+    "command": "bh_key",
+    "args":
+    {
+        "plugin": {
+            "type": ["__all__"],
+            "command" : "bh_modules.foldbracket"
+        }
+    }
+  },
+  // { "keys": ["super+equals"], "command": "increase_font_size" },
+  // { "keys": ["super+plus"], "command": "increase_font_size" },
+  // { "keys": ["super+minus"], "command": "decrease_font_size" },
+
+]

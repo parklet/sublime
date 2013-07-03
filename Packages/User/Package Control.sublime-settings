@@ -1,0 +1,31 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"ApplySyntax",
+		"CoffeeScript",
+		"CTags",
+		"EJS",
+		"ERB Insert and Toggle Commands",
+		"Gist",
+		"Git",
+		"HTML5",
+		"Jasmine",
+		"Jimbly's Clipboard History",
+		"jQuery",
+		"LESS",
+		"Markdown Preview",
+		"Package Control",
+		"PackageResourceViewer",
+		"RailsCasts Colour Scheme",
+		"RSpec",
+		"ruby-slim.tmbundle",
+		"RubyTest",
+		"Sass",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SyncedSideBar",
+		"Theme - Soda"
+	]
+}

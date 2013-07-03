@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+$1 : _.bind(function ($2) {$0}, this),
+]]></content>
+  <tabTrigger>hbf</tabTrigger>
+  <scope>source.js</scope>
+  <description>key : _.bind(function () {}, this),</description>
+</snippet>

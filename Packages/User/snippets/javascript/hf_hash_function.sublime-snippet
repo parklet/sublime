@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+$1 : function ($2) {$0},
+]]></content>
+  <tabTrigger>hf</tabTrigger>
+  <scope>source.js</scope>
+  <description>key : function () {},</description>
+</snippet>

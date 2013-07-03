@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+$1.should_receive(:$2).with($3).and_return($4)
+]]></content>
+  <tabTrigger>shrec</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>Should receive with and return</description>
+</snippet>

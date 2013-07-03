@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+describe("event handlers", function () {
+  var event;
+  beforeEach(function () {
+    event = jQuery.Event();
+  });
+
+  $0
+});
+]]></content>
+  <tabTrigger>desceh</tabTrigger>
+  <scope>source.js</scope>
+  <description>Describe event handlers block</description>
+</snippet>

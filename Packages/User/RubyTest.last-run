@@ -1,0 +1,4 @@
+{
+	"last_test_run": "rspec spec/controllers/employees_controller_spec.rb -l49",
+	"last_test_working_dir": "/Users/andrewhubbs/workspace/app"
+}

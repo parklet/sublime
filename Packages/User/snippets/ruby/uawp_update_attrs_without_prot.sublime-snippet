@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+update_attributes({$1}, without_protection: true)$0
+]]></content>
+  <tabTrigger>uawp</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>Update attributes without protection</description>
+</snippet>
